@@ -25,6 +25,7 @@ public class MainClass {
 		
 		list.stream().filter(e->e.getSal()<20000).forEach(e->e.setSal(e.getSal()+5000));
 		System.out.println(list);
+		System.out.println("hello");
 	}
 
 }
